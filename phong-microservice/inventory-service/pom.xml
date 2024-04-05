@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>Phong</groupId>
-    <artifactId>order-service</artifactId>
+    <artifactId>inventory-service</artifactId>
 
     <properties>
         <java.version>17</java.version>
@@ -52,10 +52,6 @@
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
     </dependencies>
 
